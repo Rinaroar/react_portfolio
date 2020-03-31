@@ -37,10 +37,17 @@ nav ul {
   font-size:var(--fontsize-nav) ;
   text-align: center;
   list-style-type: none;
-  text-decoration: none;
-  color: white !important;
 }
 
 nav ul li {
   margin:40px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  font-weight: 700;
 }
