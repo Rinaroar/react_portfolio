@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
+import Experience from './contents/Experience';
 
 
 function App() {
@@ -18,6 +19,10 @@ function App() {
 
         <Route exact path="/about">
           <About />
+        </Route>
+
+        <Route exact path="/experiences">
+          <Experience />
         </Route>
 
       </div>
