@@ -71,18 +71,31 @@ nav ul li a:hover {
 }
 
 .social {
-position: absolute;
-margin-top: 20px;
-display: flex;
-bottom: 60px;
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
 }
 
 .social i {
-padding-right: 30px;
-font-size: 25px;
-color: #9a9b9c;
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
 }
 
 .social i:hover {
-color: rgba(132,124,252,1);
+  color: rgba(132,124,252,1);
+}
+
+.subtopic {
+  margin:10px 10px 30px 10px !important;
+}
+
+p {
+  font-size: var(--fontsize-p);
+}
+
+h1, h2, h3, h4, p {
+  margin: 10px;
+  line-height: 1.4em;
 }
