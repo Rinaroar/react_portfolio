@@ -115,3 +115,7 @@ h1, h2, h3, h4, p {
   list-style-type:none;
   margin:10px;
 }
+
+.gif {
+  margin-top: 60px;
+}
