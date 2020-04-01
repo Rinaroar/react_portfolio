@@ -9,9 +9,21 @@
 * {
   margin:0;
   padding: 0;
+  line-height: 1.5em;
 }
+
 body {
   font-family: 'Raleway';
+}
+
+section {
+  display: inline-flex;
+  margin-top: 15px;
+}
+
+p {
+  font-size: var(--fontsize-p);
+  font-weight: 400;
 }
 
 .App {
@@ -83,39 +95,80 @@ nav ul li a:hover {
 }
 
 .social i:hover {
-  color: rgba(132,124,252,1);
+  color: rgb(238,103,143);
 }
 
 .subtopic {
-  margin:10px 10px 30px 10px !important;
-}
-
-p {
-  font-size: var(--fontsize-p);
-}
-
-h1, h2, h3, h4, p {
-  margin: 10px;
-  line-height: 1.4em;
+  margin:10px 10px 30px 0px !important;
 }
 
 .widecard {
-  border:0px solid #9a9b9c;
   display: flex;
   margin:30px 0px 30px 0px;
+  width: 80%;
 }
 
 .widecard:hover {
   color: #1b1d20;
-  background-color: #ffffff;
+  padding: 2px;
+  background-color: #fafafa;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.aboutMe {
+  color:rgb(238,103,143);
+}
+
+.xpTitle {
+  color:rgb(238,103,143);
+}
+
+.during {
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.skills ul {
+  margin: 0 90px 0 0;
 }
 
 .skills ul li {
   list-style-type:none;
-  margin:10px;
+  margin: 10px 10px 10px 0;
+  font-size: 1.2rem;
+}
+
+.skillTitle {
+  color:rgb(238,103,143);
 }
 
 .gif {
   margin-top: 60px;
+}
+
+.yoga {
+  margin-bottom: 45px;
+  width: 400px;
+}
+
+.instagram {
+  text-decoration: none;
+  font-weight: 600;
+  color:rgb(238,103,143);
+}
+
+.instagram:hover{
+  color:rgba(132,124,252,1);
+}
+
+.mail {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color:rgb(238,103,143);
+}
+
+.mail:hover {
+  color:rgba(132,124,252,1);
 }

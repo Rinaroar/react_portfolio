@@ -5,12 +5,12 @@ class About extends Component {
     return (
       <div className="condiv">
         <h1 className="subtopic">About Me</h1>
-        <h4>Hey there,</h4>
-        <h1>I'm Marina Luxin</h1>
-        <h3>Apprentice Fullstack Web <u>Developer</u></h3>
+        <p>Hey there,</p>
+        <br></br>
+        <h2 class="aboutMe">I'm Marina Luxin <br></br>Apprentice Fullstack Web <u>Developer</u></h2>
         <br></br>
           <p>I started my journey in Digital World from an young age designing, editing and creating stuff on Web.
-            I did my studies in Paris beginning with a HND in communication, then a Bachelor Degree in Digital Marketing.
+            I did my studies in Paris beginning with a HND in communication and a Bachelor Degree in Digital Marketing.
             <br/>
             <br/>Now I’m 23 years old and I am pursuing my Art Director Degree specialized in Web Developement at ECV Digital Paris.
             Web development is one of my center of interest, such as Design and Yoga : fields where there is always something new to learn!

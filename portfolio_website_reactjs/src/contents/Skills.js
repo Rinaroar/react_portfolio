@@ -7,28 +7,39 @@ class Skills extends Component {
     this.state = {
       'titleDev' : ['Web Development'],
       'titleUX' : ['UX/UI'],
-      'myskillsDev':[,'HTML','CSS','Javascript','PHP','React'],
-      'myskillsUX':['Illustrator','Figma', "UX Method"]
+      'titleKH' : ['Strength'],
+      'myskillsDev':['HTML/CSS','Accessibility','Javascript','React.js','PHP/SQL',"PWA"],
+      'myskillsUX':['Illustrator', 'InDesign','Figma', "UX Method"],
+      'myskillsKH':['Agility','Team work', "Proactive", 'Initiatives taker']
     };
   }
 
   render() {
     return (
       <div className="condiv skills">
-        <h1 className="subtopic">My Skills</h1>
+        <h1 className="subtopic">I could help you with...</h1>
+        <section>
         <ul>
-          <h3>{this.state.titleDev}</h3>
+          <h2 class="skillTitle">{this.state.titleDev}</h2>
             {this.state.myskillsDev.map((value) => {
             return <li>{value}</li>
             })}
         </ul>
         <br></br>
         <ul>
-          <h3>{this.state.titleUX}</h3>
+          <h2 class="skillTitle">{this.state.titleUX}</h2>
             {this.state.myskillsUX.map((value) => {
             return <li>{value}</li>
             })}
         </ul>
+        <br></br>
+        <ul>
+          <h2 class="skillTitle">{this.state.titleKH}</h2>
+            {this.state.myskillsKH.map((value) => {
+            return <li>{value}</li>
+            })}
+        </ul>
+        </section>
       </div>
       )
     }

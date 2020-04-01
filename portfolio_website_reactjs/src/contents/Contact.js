@@ -7,9 +7,9 @@ class Contact extends Component {
   render() {
     return (
       <div className="condiv home">
-        <h1 className="subtopic">Contact Me</h1>
-        <h3>marina.luxin@gmail.com</h3>
-        <img src={gif} className="gif"></img>
+        <h1 className="subtopic">Will you dare?</h1>
+        <a href="mailto:marina.luxin@gmail.com" class="mail">marina.luxin@gmail.com</a>
+        <img src={gif} className="gif" alt="Sponge Bob saying see you!"></img>
         <Social />
       </div>
     )
