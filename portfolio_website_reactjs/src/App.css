@@ -145,6 +145,7 @@ nav ul li a:hover {
 
 .gif {
   margin-top: 60px;
+  max-width: 100%;
 }
 
 .yoga {
@@ -172,3 +173,138 @@ nav ul li a:hover {
 .mail:hover {
   color:rgba(132,124,252,1);
 }
+
+
+
+/* Ipad Pro */
+@media (min-width: 900px) and (max-width: 1024px){
+
+  nav {
+    padding: 25% 2% 25% 2%;
+  }
+
+  .condiv {
+    padding: 80px 40px 40px 40px;
+  }
+
+  .typingEffect {
+    margin: 0 0 55% 0;
+    font-size: 2.5rem;
+}
+
+  .profilePic {
+    margin-bottom: 45px;
+  }
+
+  section {
+    display: block;
+  }
+
+  .hobby {
+    margin-bottom: 60px;
+  }
+
+  .gif {
+    margin-bottom: 130px;
+  }
+}
+
+/* Ipad */
+@media (min-width: 768px) and (max-width: 900px){
+
+  nav {
+    padding: 25% 2% 25% 2%;
+  }
+
+  .condiv {
+    padding: 80px 40px 40px 40px;
+  }
+
+  .typingEffect {
+    margin: 0 0 165px 0;
+    font-size: 2.5rem;
+}
+
+  .profilePic {
+    margin-bottom: 35px;
+  }
+
+  section {
+    display: block;
+  }
+
+  .hobby {
+    margin-bottom: 60px;
+  }
+
+  .gif {
+    margin-bottom: 130px;
+  }
+}
+
+/* Smartphone */
+@media (min-width: 320px) and (max-width: 480px){}
+
+
+/* .app-card-list {
+  display:inline-block;
+  width:100%;
+  float:right;
+  margin:0;
+  min-height: 75vh;
+  white-space:normal;
+  margin-top:-70px;
+} */
+
+.card {
+  margin: 40px 85px 40px 0px;
+  display: inline-block;
+  width: 310px;
+  box-shadow: 10px 5px 25px 7px grey;
+}
+
+.card-header {
+  height: 150px;
+  padding: 15px;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+
+.card-header--title {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.card-body {
+  padding: 15px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.body-content {
+  padding: 30px 0 30px 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.button-primary {
+  border: none;
+  box-shadow: none;
+  background-color: transparent;
+  color: rgb(238,103,143);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  color:rgba(132,124,252,1);
+}
+
+
+.button-primary i {
+  padding-right: 4px;
+}
+

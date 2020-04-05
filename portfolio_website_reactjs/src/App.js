@@ -9,6 +9,7 @@ import Experience from './contents/Experience';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Hobby from './contents/Hobby';
+import Projects from './contents/Projects';
 
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
 
         <Route exact path="/hobby">
           <Hobby />
+        </Route>
+
+        <Route exact path="/projects">
+          <Projects />
         </Route>
 
       </div>

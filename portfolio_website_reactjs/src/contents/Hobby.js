@@ -8,7 +8,7 @@ class Contact extends Component {
       <div className="condiv home">
         <h1 className="subtopic">What do I do after work ?</h1>
         <img src={yoga} className="yoga"  alt="Yoga pose"></img>
-        <p> Follow me on my dedicated <a href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram">Instagram Account!</a></p>
+        <p class="hobby"> Follow me on my dedicated <a href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram">Instagram Account!</a></p>
       </div>
     )
   }
