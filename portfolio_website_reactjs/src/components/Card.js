@@ -5,7 +5,7 @@ const ProjectData = [
     "category": "FRONT-END",
     "title": "Your Moveez",
     "text": "PWA, find and add a movie to your favorites",
-    "image": "https://source.unsplash.com/user/erondu/600x400"
+    "image": "https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2589&q=80"
     /* "link": */
   },
   {
