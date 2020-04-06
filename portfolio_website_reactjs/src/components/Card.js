@@ -1,32 +1,36 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
+import pink from '../img/pink_bc.jpg';
+import moveez from '../img/moveez.png';
+import pdo from '../img/crud_pdo.png';
+import sunny from '../img/sunny.jpg';
 
 const ProjectData = [
   {
     "category": "FRONT-END",
     "title": "Your Moveez",
     "text": "PWA, find and add a movie to your favorites",
-    "image": "https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2589&q=80"
+    "image": moveez
     /* "link": */
   },
   {
     "category": "FRONT-END",
     "title": "Weather App",
     "text": "Check the weather wherever you are (in progress)",
-    "image": "https://source.unsplash.com/user/_vickyreyes/600x400"
+    "image": sunny
   },
   {
     "category": "BACK-END",
     "title": "Movie DB CRUD",
     "text": "Using PDO to CRUD a movie Database",
-    "image": "https://source.unsplash.com/user/ilyapavlov/600x400"
+    "image": pdo
   },
   {
     "category": "FULLSTACK",
     "title": "Yoga App",
     "text": "Daily Yoga PWA for training (in progress)",
-    "image": "https://source.unsplash.com/user/erondu/600x400"
+    "image": pink
   },
-
 ]
 
 class Card extends Component {
@@ -53,7 +57,6 @@ class Card extends Component {
     </div>
   }
 }
-
 
 class CardHeader extends React.Component {
   render() {
@@ -90,7 +93,6 @@ class CardBody extends React.Component {
     )
   }
 }
-
 
 class CardContent extends React.Component {
   render() {
