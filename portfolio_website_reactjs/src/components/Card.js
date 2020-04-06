@@ -21,7 +21,7 @@ const ProjectData = [
   },
   {
     "category": "BACK-END",
-    "title": "Movie DB CRUD",
+    "title": "Movie DB ",
     "text": "Using PDO to CRUD a movie Database",
     "image": pdo
   },
@@ -60,13 +60,12 @@ class Card extends Component {
 
 class CardHeader extends React.Component {
   render() {
-    const { image, category } = this.props;
+    const { image } = this.props;
     var style = {
         backgroundImage: 'url(' + image + ')',
     };
     return (
       <header style={style} className="card-header">
-        <h4 className="card-header--title">{category}</h4>
       </header>
     )
   }
@@ -84,9 +83,11 @@ class Button extends React.Component {
 
 class CardBody extends React.Component {
   render() {
+    const { category } = this.props;
     return (
       <div className="card-body">
         <h2>{this.props.title}</h2>
+        <h3 className="category">{category}</h3>
         <p className="body-content">{this.props.text}</p>
         <Button />
       </div>
@@ -98,8 +99,8 @@ class CardContent extends React.Component {
   render() {
     return (
       <article className="card">
-        <CardHeader category={this.props.details.category} image={this.props.details.image}/>
-        <CardBody title={this.props.details.title} text={this.props.details.text}/>
+        <CardHeader  image={this.props.details.image}/>
+        <CardBody title={this.props.details.title} category={this.props.details.category} text={this.props.details.text}/>
       </article>
     )
   }

@@ -271,11 +271,6 @@ nav ul li a:hover {
   color: #fff;
 }
 
-.card-header--title {
-  text-transform: uppercase;
-  margin: 0;
-}
-
 .card-body {
   padding: 15px;
   background-color: #fff;
@@ -285,7 +280,13 @@ nav ul li a:hover {
 .body-content {
   padding: 30px 0 30px 0;
   font-size: 18px;
-  line-height: 1.8;
+  line-height: 1.5;
+}
+
+.category {
+  text-transform: uppercase;
+  margin: 0;
+  color: darkgrey;
 }
 
 .button-primary {
