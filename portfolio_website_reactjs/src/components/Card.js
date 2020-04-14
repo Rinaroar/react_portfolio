@@ -10,26 +10,29 @@ const ProjectData = [
     "category": "FRONT-END",
     "title": "Your Moveez",
     "text": "PWA, find and add a movie to your favorites",
-    "image": moveez
-    /* "link": */
+    "image": moveez,
+    "link": "https://rinaroar.github.io/popcorntime_js/"
   },
   {
     "category": "FRONT-END",
     "title": "Weather App",
     "text": "Check the weather wherever you are (in progress)",
-    "image": sunny
+    "image": sunny,
+    "link": "https://github.com/Rinaroar/app_meteo"
   },
   {
     "category": "BACK-END",
     "title": "Movie DB ",
     "text": "Using PDO to CRUD a movie Database",
-    "image": pdo
+    "image": pdo,
+    "link": "https://rinaroar.github.io/popcorntime_js/"
   },
   {
     "category": "FULLSTACK",
     "title": "Yoga App",
     "text": "Daily Yoga PWA for training (in progress)",
-    "image": pink
+    "image": pink,
+    "link": "https://rinaroar.github.io/popcorntime_js/"
   },
 ]
 
@@ -74,22 +77,22 @@ class CardHeader extends React.Component {
 class Button extends React.Component {
   render() {
     return (
-      <button className="button button-primary">
+      <a href={this.props.link}  target="_blank" className="button button-primary">
         <i className="fa fa-chevron-right"></i> Find out more
-      </button>
+      </a>
     )
   }
 }
 
 class CardBody extends React.Component {
   render() {
-    const { category } = this.props;
+    const { category} = this.props;
     return (
       <div className="card-body">
         <h2>{this.props.title}</h2>
         <h3 className="category">{category}</h3>
         <p className="body-content">{this.props.text}</p>
-        <Button />
+        <Button link={this.props.link}/>
       </div>
     )
   }
@@ -99,8 +102,8 @@ class CardContent extends React.Component {
   render() {
     return (
       <article className="card">
-        <CardHeader  image={this.props.details.image}/>
-        <CardBody title={this.props.details.title} category={this.props.details.category} text={this.props.details.text}/>
+        <CardHeader image={this.props.details.image}/>
+        <CardBody title={this.props.details.title} category={this.props.details.category} text={this.props.details.text} link={this.props.details.link}/>
       </article>
     )
   }
