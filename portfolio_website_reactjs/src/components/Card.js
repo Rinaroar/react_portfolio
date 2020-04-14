@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import pink from '../img/pink_bc.jpg';
 import moveez from '../img/moveez.png';
 import pdo from '../img/crud_pdo.png';
+import wall from '../img/wall.png';
 import sunny from '../img/sunny.jpg';
 
 const ProjectData = [
@@ -25,14 +26,21 @@ const ProjectData = [
     "title": "Movie DB ",
     "text": "Using PDO to CRUD a movie Database",
     "image": pdo,
-    "link": "https://rinaroar.github.io/popcorntime_js/"
+    "link": "https://github.com/Rinaroar/crud_pdo"
+  },
+  {
+    "category": "BACK-END",
+    "title": "The Wall ",
+    "text": "Using PDO to CRUD a collaborative Wall",
+    "image": wall,
+    "link": "https://github.com/Rinaroar/wall_from_scratch"
   },
   {
     "category": "FULLSTACK",
     "title": "Yoga App",
     "text": "Daily Yoga PWA for training (in progress)",
     "image": pink,
-    "link": "https://rinaroar.github.io/popcorntime_js/"
+    "link": "https://github.com/Rinaroar/yogapp"
   },
 ]
 
@@ -77,7 +85,7 @@ class CardHeader extends React.Component {
 class Button extends React.Component {
   render() {
     return (
-      <a href={this.props.link}  target="_blank" className="button button-primary">
+      <a href={this.props.link}  target="_blank" rel="noopener noreferrer" className="button button-primary">
         <i className="fa fa-chevron-right"></i> Find out more
       </a>
     )
