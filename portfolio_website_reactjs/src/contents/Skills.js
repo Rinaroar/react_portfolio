@@ -8,7 +8,7 @@ class Skills extends Component {
       'titleDev' : ['Web Development'],
       'titleUX' : ['UX/UI'],
       'titleKH' : ['Strength'],
-      'myskillsDev':['HTML/CSS','Accessibility','Javascript','React.js','PHP/SQL',"PWA"],
+      'myskillsDev':['HTML/CSS','Accessibility','Javascript','React.js','PHP/SQL', "Node.js", "PWA"],
       'myskillsUX':['Illustrator', 'InDesign','Figma', "UX Method"],
       'myskillsKH':['Agility','Team work', "Proactive", 'Initiatives taker']
     };
