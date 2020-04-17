@@ -18,7 +18,7 @@ function App() {
       <div className="App">
         <Navbar />
 
-        <Route exact path="/react_portfolio">
+        <Route exact path="/">
           <Home />
         </Route>
 
