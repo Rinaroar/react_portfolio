@@ -3,7 +3,7 @@ Where you could discover my experiences, my skills, projects and hobby.
 This is a responsiveweb app and PWA to be.
 
 # In progress
-* "My Project" feature with card component,
-* "Experiences" with a new popin feature to explicit the experience clicked,
+* Add an explicit card/toggle in "Experiences" feature,
 * Mobile responsive,
-* PWA feature
+* Turning this in PWA,
+* Optimize performance (due to images).
