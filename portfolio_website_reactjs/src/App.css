@@ -241,15 +241,36 @@ nav ul li a:hover {
 @media (min-width: 900px) and (max-width: 1024px){
 
   nav {
-    padding: 25% 2% 25% 2%;
+    padding: 30% 2% 25% 2%;
   }
 
   .condiv {
-    padding: 80px 40px 40px 40px;
+    padding: 100px 50px 30px 50px;
+  }
+
+  .about, .experience, .skills {
+    padding: 30% 50px 30px 50px;
+  }
+
+  .hobby, .contact {
+    padding: 0px 50px 90px 50px;
+  }
+
+  .skill ul {
+    margin: 0 60px 0 0;
+  }
+
+  .mini {
+    width: 20%;
+    position: absolute;
+    left: 75%;
+    bottom: 7%;
+    cursor: pointer;
+    display: block;
   }
 
   .typingEffect {
-    margin: 0 0 55% 0;
+    margin: 0 0 30% 0;
     font-size: 2.5rem;
 }
 
@@ -257,16 +278,12 @@ nav ul li a:hover {
     margin-bottom: 45px;
   }
 
-  section {
-    display: block;
-  }
-
-  .hobby {
-    margin-bottom: 60px;
-  }
-
   .gif {
     margin-bottom: 130px;
+  }
+
+  .card {
+    width: 240px;
   }
 }
 

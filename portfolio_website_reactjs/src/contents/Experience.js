@@ -6,7 +6,7 @@ import Resume from '../components/Resume';
 class Experience extends Component {
     render() {
       return (
-        <div className="condiv">
+        <div className="condiv experience">
           <h1 className="subtopic">You can ask them ;)</h1>
           <Widecard title="Front-End Developer" where=" SeLoger | Paris" from="September 2019" to="Present" during="Sandwich course in Master Degree"/>
           <Widecard title="Webdesigner | Knowledge Management Assistant" where="Société Générale | Paris" from="2018" to="2019" during="Sandwich course in Bachelor Degree"/>
