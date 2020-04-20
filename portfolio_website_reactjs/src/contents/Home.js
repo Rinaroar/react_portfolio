@@ -10,6 +10,10 @@ const Container = styled.div`
   padding: 100px ;
   background-color: #eee;
   flex: 6;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `
 const Profile = styled.img`
   border-radius: 50%;
@@ -27,8 +31,8 @@ const Profile = styled.img`
 
 const Home = () => {
     return (
-      <Container className="condiv home">
-        <Profile src={profilePic} className="profilePic" alt="My face"></Profile>
+      <Container>
+        <Profile src={profilePic} alt="My face"></Profile>
         <ReactTypingEffect className="typingEffect" text= {['I am Marina Luxin','I am a Web Developer']} speed={100} eraseDelay={700}/>
         <Social />
       </Container>

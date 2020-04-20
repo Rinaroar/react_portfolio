@@ -62,13 +62,12 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
-.home {
+/* .home {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
-}
+} */
 /* .profilePic {
   border-radius: 50%;
   width: 350px;
@@ -97,9 +96,9 @@ nav ul li a:hover {
   color:  rgb(189, 1, 129);
 }
 
-.subtopic {
+/* .subtopic {
   margin:10px 10px 30px 0px !important;
-}
+} */
 
 .widecard {
   display: flex;
@@ -147,12 +146,12 @@ nav ul li a:hover {
   max-width: 100%;
 }
 
-.yoga {
+/* .yoga {
   margin-bottom: 45px;
   width: 400px;
-}
+} */
 
-.instagram {
+/* .instagram {
   text-decoration: none;
   font-weight: 600;
   color: rgb(189, 1, 129);
@@ -160,7 +159,7 @@ nav ul li a:hover {
 
 .instagram:hover{
   color:#680270;
-}
+} */
 
 .mail {
   text-decoration: none;
@@ -252,7 +251,7 @@ nav ul li a:hover {
     padding: 30% 50px 30px 50px;
   }
 
-  .hobby, .contact {
+  /* .hobby, */ .contact {
     padding: 0px 50px 90px 50px;
   }
 
@@ -311,9 +310,9 @@ nav ul li a:hover {
     display: block;
   }
 
-  .hobby {
+  /* .hobby {
     margin-bottom: 60px;
-  }
+  } */
 
   .gif {
     margin-bottom: 130px;
