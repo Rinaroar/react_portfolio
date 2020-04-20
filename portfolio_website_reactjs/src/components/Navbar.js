@@ -7,7 +7,7 @@ class Navbar extends Component {
         return (
             <nav>
               <ul>
-                <Navitem item="Home" tolink="/"></Navitem>
+                <Navitem item="Home" tolink="/react_portfolio"></Navitem>
                 <Navitem item="About" tolink="/about"></Navitem>
                 <Navitem item="Experiences" tolink="/experiences"></Navitem>
                 <Navitem item="Skills" tolink="/skills"></Navitem>
