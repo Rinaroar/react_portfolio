@@ -69,11 +69,11 @@ nav ul li a:hover {
   align-items: center;
 
 }
-.profilePic {
+/* .profilePic {
   border-radius: 50%;
   width: 350px;
   margin-bottom: 30px;
-}
+} */
 
 .typingEffect {
   font-size: var(--typing-font);
@@ -274,9 +274,9 @@ nav ul li a:hover {
     font-size: 2.5rem;
 }
 
-  .profilePic {
+  /* .profilePic {
     margin-bottom: 45px;
-  }
+  } */
 
   .gif {
     margin-bottom: 130px;
@@ -303,9 +303,9 @@ nav ul li a:hover {
     font-size: 2.5rem;
 }
 
-  .profilePic {
+  /* .profilePic {
     margin-bottom: 35px;
-  }
+  } */
 
   section {
     display: block;
