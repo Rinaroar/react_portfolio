@@ -227,71 +227,14 @@ nav ul li a:hover {
   padding-right: 4px;
 }
 
-
-.resume {
-  /* width: 25%;
-  height: 10%;
-  background-color:#680270;
-  border-radius: 10px 0px 0px 10px;
-  border: none;
-  margin-top: 63px;
-  position: absolute;
-  right: 0;
-  top: 77%;
-  -webkit-box-shadow: -10px 10px 16px -6px rgba(173,173,173,1);
-  -moz-box-shadow: -10px 10px 16px -6px rgba(173,173,173,1);
-  box-shadow: -10px 10px 16px -6px rgba(173,173,173,1); */
-}
-
-/* .resume a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
-} */
-
 .mini {
   width: 10%;
   position: absolute;
   left: 85%;
   bottom: 3%;
   cursor: pointer;
+  display: block;
 }
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  border-radius: 9px 0px 0px 9px ;
-  background-color: rgb(189, 1, 129);
-}
-
-.resume:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.fa-smile {
-  font-size: 28px;
-}
-
-
 
 
 /* Ipad Pro */

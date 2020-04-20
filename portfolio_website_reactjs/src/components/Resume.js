@@ -13,17 +13,10 @@ class Resume extends Component {
   render() {
     return (
       <div class="resume" onClick={this.onResumeClick}>
-       <img src={miniResume} className="mini" alt="mini-resume" /><a href={resume} target="_blank" rel="noopener noreferrer"></a>
-        <div class="overlay">
-          <div class="text"><i class="far fa-smile"></i><i class="far fa-smile"></i><i class="far fa-smile"></i></div>
-        </div>
+        <img src={miniResume} class="mini" alt="mini-resume" /><a href={resume} target="_blank" rel="noopener noreferrer"></a>
       </div>
     )
   }
 }
 
-
 export default Resume
-
-  {/* <button class="button-primary resume" onClick={this.onResumeClick}> */}
-       {/*  <a href={resume} target="_blank" rel="noopener noreferrer" ><i className="fa fa-chevron-right"></i>Check at my resume!</a> */}
