@@ -1,22 +1,38 @@
-import React, { Component } from 'react'
+import React from 'react';
+import styled from 'styled-components';
+import { MAX } from "../constants";
+
 import resume from '../img/front_end_dev.pdf';
 import miniResume from '../img/mini-resume.png';
 
+const Mini = styled.img`
+  width: 10%;
+  position: absolute;
+  left: 85%;
+  bottom: 3%;
+  cursor: pointer;
+  display: block;
+
+  ${MAX.MEDIA_M} {
+    width: 20%;
+    left: 75%;
+    bottom: 7%;
+  }
+`
 
 
-class Resume extends Component {
+const Resume = () => {
 
-  onResumeClick() {
+  function onResumeClick() {
     window.open(resume);
   }
 
-  render() {
-    return (
-      <div class="resume" onClick={this.onResumeClick}>
-        <img src={miniResume} class="mini" alt="mini-resume"/><a href={resume} target="_blank" rel="noopener noreferrer"></a>
-      </div>
-    )
-  }
+  return (
+    <div onClick={onResumeClick}>
+      <Mini src={miniResume} alt="mini-resume"/>
+      <a href={resume} target="_blank" rel="noopener noreferrer"></a>
+    </div>
+  )
 }
 
 export default Resume

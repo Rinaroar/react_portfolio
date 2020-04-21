@@ -226,14 +226,14 @@ nav ul li a:hover {
   padding-right: 4px;
 }
 
-.mini {
+/* .mini {
   width: 10%;
   position: absolute;
   left: 85%;
   bottom: 3%;
   cursor: pointer;
   display: block;
-}
+} */
 
 
 /* Ipad Pro */
@@ -247,26 +247,26 @@ nav ul li a:hover {
     padding: 100px 50px 30px 50px;
   } */
 
-  /* .about */, .experience, .skills {
+  /* .about, */ .experience, .skills {
     padding: 30% 50px 30px 50px;
   }
 
-  /* .hobby, */ .contact {
+  /* .hobby, .contact {
     padding: 0px 50px 90px 50px;
-  }
+  } */
 
   .skill ul {
     margin: 0 60px 0 0;
   }
 
-  .mini {
+  /* .mini {
     width: 20%;
     position: absolute;
     left: 75%;
     bottom: 7%;
     cursor: pointer;
     display: block;
-  }
+  } */
 
   .typingEffect {
     margin: 0 0 30% 0;
