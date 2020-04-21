@@ -1,13 +1,34 @@
-import React, { Component } from 'react';
+import React from 'react';
+import styled from 'styled-components';
 
-class Social extends Component {
-  render() {
-    return (
-      <div class="social">
-        <a href="https://github.com/Rinaroar" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/marina-luxin-661b38116/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    )
+const SocialContainer = styled.div`
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+`
+
+const Network = styled.a`
+  padding-right: 20px;
+  font-size: 25px;
+  color: #9a9b9c;
+
+  &:hover {
+    color:  rgb(189, 1, 129);
   }
+`
+
+const Social = () => {
+  return (
+    <SocialContainer>
+      <Network href="https://github.com/Rinaroar" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-github"></i>
+      </Network>
+      <Network href="https://www.linkedin.com/in/marina-luxin-661b38116/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin-in"></i>
+      </Network>
+    </SocialContainer>
+  )
 }
+
 export default Social

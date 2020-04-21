@@ -24,9 +24,9 @@ const Profile = styled.img`
       margin-bottom: 45px;
   }
 
-  ${MAX.MEDIA_S}{
+  ${MAX.MEDIA_S} {
     margin-bottom: 35px;
-}
+  }
 `
 
 const Home = () => {

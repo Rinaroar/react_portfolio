@@ -46,7 +46,7 @@ const Contact = () => {
       <Container>
         <Title>What do I do after work ?</Title>
         <ItemYoga src={yoga} alt="Yoga pose"></ItemYoga>
-        <p> Follow me on my dedicated
+        <p>Follow me on my dedicated
           <InstaLink href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram"> Instagram Account!</InstaLink>
         </p>
       </Container >

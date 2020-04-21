@@ -79,22 +79,22 @@ nav ul li a:hover {
   margin: 0 0 160px 0;
 }
 
-.social {
+/* .social {
   position: absolute;
   margin-top: 20px;
   display: flex;
   bottom: 60px;
-}
+} */
 
-.social i {
+/* .social i {
   padding-right: 20px;
   font-size: 25px;
   color: #9a9b9c;
-}
+} */
 
-.social i:hover {
+/* .social i:hover {
   color:  rgb(189, 1, 129);
-}
+} */
 
 /* .subtopic {
   margin:10px 10px 30px 0px !important;
@@ -113,9 +113,9 @@ nav ul li a:hover {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 } */
 
-.aboutMe {
+/* .aboutMe {
   color: rgb(189, 1, 129);
-}
+} */
 
 .xpTitle {
   color: rgb(189, 1, 129);
@@ -243,11 +243,11 @@ nav ul li a:hover {
     padding: 30% 2% 25% 2%;
   }
 
-  .condiv {
+  /* .condiv {
     padding: 100px 50px 30px 50px;
-  }
+  } */
 
-  .about, .experience, .skills {
+  /* .about */, .experience, .skills {
     padding: 30% 50px 30px 50px;
   }
 
@@ -293,9 +293,9 @@ nav ul li a:hover {
     padding: 25% 2% 25% 2%;
   }
 
-  .condiv {
+ /*  .condiv {
     padding: 80px 40px 40px 40px;
-  }
+  } */
 
   .typingEffect {
     margin: 0 0 165px 0;
