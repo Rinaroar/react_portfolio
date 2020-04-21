@@ -141,10 +141,10 @@ nav ul li a:hover {
   color: rgb(189, 1, 129);
 }
 
-.gif {
+/* .gif {
   margin-top: 60px;
   max-width: 100%;
-}
+} */
 
 /* .yoga {
   margin-bottom: 45px;
@@ -161,7 +161,7 @@ nav ul li a:hover {
   color:#680270;
 } */
 
-.mail {
+/* .mail {
   text-decoration: none;
   font-weight: 600;
   font-size: 1.2rem;
@@ -171,7 +171,7 @@ nav ul li a:hover {
 .mail:hover {
   color:#680270;
 }
-
+ */
 .card {
   margin: 40px 85px 40px 0px;
   display: inline-block;
@@ -277,9 +277,9 @@ nav ul li a:hover {
     margin-bottom: 45px;
   } */
 
-  .gif {
+  /* .gif {
     margin-bottom: 130px;
-  }
+  } */
 
   .card {
     width: 240px;
@@ -313,10 +313,6 @@ nav ul li a:hover {
   /* .hobby {
     margin-bottom: 60px;
   } */
-
-  .gif {
-    margin-bottom: 130px;
-  }
 }
 
 /* Smartphone */

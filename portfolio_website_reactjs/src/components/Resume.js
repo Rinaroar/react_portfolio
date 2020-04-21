@@ -13,7 +13,7 @@ class Resume extends Component {
   render() {
     return (
       <div class="resume" onClick={this.onResumeClick}>
-        <img src={miniResume} class="mini" alt="mini-resume" /><a href={resume} target="_blank" rel="noopener noreferrer"></a>
+        <img src={miniResume} class="mini" alt="mini-resume"/><a href={resume} target="_blank" rel="noopener noreferrer"></a>
       </div>
     )
   }

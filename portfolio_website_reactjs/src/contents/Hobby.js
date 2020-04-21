@@ -31,8 +31,6 @@ const ItemYoga = styled.img`
   width: 400px;
 `
 
-const Follow = styled.p``
-
 const InstaLink = styled.a`
   text-decoration: none;
   font-weight: 600;
@@ -48,9 +46,9 @@ const Contact = () => {
       <Container>
         <Title>What do I do after work ?</Title>
         <ItemYoga src={yoga} alt="Yoga pose"></ItemYoga>
-        <Follow> Follow me on my dedicated
+        <p> Follow me on my dedicated
           <InstaLink href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram"> Instagram Account!</InstaLink>
-        </Follow>
+        </p>
       </Container >
     )
 }
