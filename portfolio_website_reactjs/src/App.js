@@ -6,7 +6,9 @@ import Navbar from './components/Navbar';
 import Home from './contents/Home';
 import About from './contents/About';
 import Experience from './contents/Experience';
-import Skills from './contents/Skills';
+/* import Skills from './contents/Skills'; */
+import SkillsView from './contents/SkillsView';
+import {skillsData} from './components/SkillHook';
 import Contact from './contents/Contact';
 import Hobby from './contents/Hobby';
 import Projects from './contents/Projects';
@@ -31,7 +33,8 @@ function App() {
         </Route>
 
         <Route exact path="/skills">
-          <Skills />
+          {/* <Skills /> */}
+          <SkillsView skillsData={skillsData} />
         </Route>
 
         <Route exact path="/contact">
