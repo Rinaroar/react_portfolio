@@ -13,7 +13,7 @@ export const skillsData  = {
           skillTheme: ["Illustrator", "InDesign","Figma", "UX Method"]
         }
       ],
-      DesignSkill: [
+      Perso: [
         {
           title: "Strengths",
           skillTheme: ["Agility","Team work", "Proactive", "Initiatives taker"]

@@ -49,3 +49,22 @@ export default Skills
 
 
 /* map() method is used to iterate over the items in an array and call a function on every element of the array. */
+
+
+{skillsData.map(value =>
+  value.skills !== null ? (
+      <section key={value.title}>
+        <h2>{value.title}</h2>
+        <ul>
+          {value.skills &&
+            value.skills.map(data => (
+              <li key={data.skillTheme}>
+                {data.skillTheme}
+              </li>
+            ))}
+        </ul>
+      </section>
+  ) : (
+    <></>
+  )
+)}
