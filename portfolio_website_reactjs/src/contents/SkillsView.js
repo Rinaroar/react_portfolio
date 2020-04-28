@@ -35,7 +35,7 @@ const Cell = styled.li`
 `
 
 function SkillsView() {
-  const [items, setItem] = useState([
+  const [items] = useState([
 
     {
       title: "Web Development",

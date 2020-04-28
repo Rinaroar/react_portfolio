@@ -67,11 +67,11 @@ nav ul li a:hover {
   margin: 0 0 160px 0;
 }
 
-.widecard {
+/* .widecard {
   display: flex;
   margin:30px 0px 30px 0px;
   width: 80%;
-}
+} */
 
 /* .widecard:hover {
   color: #1b1d20;
@@ -84,15 +84,15 @@ nav ul li a:hover {
   color: rgb(189, 1, 129);
 } */
 
-.xpTitle {
+/* .xpTitle {
   color: rgb(189, 1, 129);
 }
-
-.during {
+ */
+/* .during {
   font-style: italic;
   font-size: 1rem;
   margin-top: 5px;
-}
+} */
 
 .card {
   margin: 40px 85px 40px 0px;
@@ -154,10 +154,6 @@ nav ul li a:hover {
 
   nav {
     padding: 30% 2% 25% 2%;
-  }
-
-  /* .about, */ .experience/*  .skills */ {
-    padding: 30% 50px 30px 50px;
   }
 
   .typingEffect {
