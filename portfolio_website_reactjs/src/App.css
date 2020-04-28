@@ -62,43 +62,10 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
-/* .home {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-} */
-/* .profilePic {
-  border-radius: 50%;
-  width: 350px;
-  margin-bottom: 30px;
-} */
-
 .typingEffect {
   font-size: var(--typing-font);
   margin: 0 0 160px 0;
 }
-
-/* .social {
-  position: absolute;
-  margin-top: 20px;
-  display: flex;
-  bottom: 60px;
-} */
-
-/* .social i {
-  padding-right: 20px;
-  font-size: 25px;
-  color: #9a9b9c;
-} */
-
-/* .social i:hover {
-  color:  rgb(189, 1, 129);
-} */
-
-/* .subtopic {
-  margin:10px 10px 30px 0px !important;
-} */
 
 .widecard {
   display: flex;
@@ -127,51 +94,6 @@ nav ul li a:hover {
   margin-top: 5px;
 }
 
-.skills ul {
-  margin: 0 90px 0 0;
-}
-
-.skills ul li {
-  list-style-type:none;
-  margin: 10px 10px 10px 0;
-  font-size: 1.2rem;
-}
-
-.skillTitle {
-  color: rgb(189, 1, 129);
-}
-
-/* .gif {
-  margin-top: 60px;
-  max-width: 100%;
-} */
-
-/* .yoga {
-  margin-bottom: 45px;
-  width: 400px;
-} */
-
-/* .instagram {
-  text-decoration: none;
-  font-weight: 600;
-  color: rgb(189, 1, 129);
-}
-
-.instagram:hover{
-  color:#680270;
-} */
-
-/* .mail {
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 1.2rem;
-  color: rgb(189, 1, 129);
-}
-
-.mail:hover {
-  color:#680270;
-}
- */
 .card {
   margin: 40px 85px 40px 0px;
   display: inline-block;
@@ -226,15 +148,6 @@ nav ul li a:hover {
   padding-right: 4px;
 }
 
-/* .mini {
-  width: 10%;
-  position: absolute;
-  left: 85%;
-  bottom: 3%;
-  cursor: pointer;
-  display: block;
-} */
-
 
 /* Ipad Pro */
 @media (min-width: 900px) and (max-width: 1024px){
@@ -243,43 +156,14 @@ nav ul li a:hover {
     padding: 30% 2% 25% 2%;
   }
 
-  /* .condiv {
-    padding: 100px 50px 30px 50px;
-  } */
-
-  /* .about, */ .experience, .skills {
+  /* .about, */ .experience/*  .skills */ {
     padding: 30% 50px 30px 50px;
   }
-
-  /* .hobby, .contact {
-    padding: 0px 50px 90px 50px;
-  } */
-
-  .skill ul {
-    margin: 0 60px 0 0;
-  }
-
-  /* .mini {
-    width: 20%;
-    position: absolute;
-    left: 75%;
-    bottom: 7%;
-    cursor: pointer;
-    display: block;
-  } */
 
   .typingEffect {
     margin: 0 0 30% 0;
     font-size: 2.5rem;
 }
-
-  /* .profilePic {
-    margin-bottom: 45px;
-  } */
-
-  /* .gif {
-    margin-bottom: 130px;
-  } */
 
   .card {
     width: 240px;
@@ -293,26 +177,14 @@ nav ul li a:hover {
     padding: 25% 2% 25% 2%;
   }
 
- /*  .condiv {
-    padding: 80px 40px 40px 40px;
-  } */
-
   .typingEffect {
     margin: 0 0 165px 0;
     font-size: 2.5rem;
 }
 
-  /* .profilePic {
-    margin-bottom: 35px;
-  } */
-
   section {
     display: block;
   }
-
-  /* .hobby {
-    margin-bottom: 60px;
-  } */
 }
 
 /* Smartphone */

@@ -9,7 +9,7 @@ const Container = styled.div`
   flex: 6;
 
   ${MAX.MEDIA_M}{
-    padding: 35% 50px 30px 50px;
+    padding: 30% 50px 30px 50px;
   }
 `
 

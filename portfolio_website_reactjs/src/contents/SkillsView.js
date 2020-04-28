@@ -1,14 +1,37 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
+import { MAX } from "../constants";
+
 const Container = styled.div`
   padding: 100px ;
   background-color: #eee;
   flex: 6;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+
+  ${MAX.MEDIA_M}{
+    padding: 30% 50px 30px 50px;
+  }
+`
+
+const Title = styled.h1`
+  margin:10px 10px 30px 0px !important;
+`
+
+const List = styled.ul`
+  margin: 0 90px 0 0;
+
+  ${MAX.MEDIA_M}{
+    margin: 0 60px 0 0;
+  }
+`
+
+const SkillTitle = styled.h2`
+  color: rgb(189, 1, 129);
+`
+const Cell = styled.li`
+  list-style-type:none;
+  margin: 10px 10px 10px 0;
+  font-size: 1.2rem;
 `
 
 function SkillsView() {
@@ -29,23 +52,19 @@ function SkillsView() {
   ])
 
   return (
-    <Container className="skills">
-      <h1 className="subtopic">I could help you with...</h1>
-
-
+    <Container>
+      <Title>I could help you with...</Title>
       <section>
-      {items.map(value =>
-        <ul>
-        <h2>{value.title}</h2>
-        {value.skillTheme &&
-        value.skillTheme.map(skill => (
-            <li key={skill.skillTheme}>{skill}</li>
-          ))}
-        </ul>
-        )}
+        {items.map(value =>
+          <List>
+            <SkillTitle>{value.title}</SkillTitle>
+              {value.skillTheme &&
+              value.skillTheme.map(skill => (
+                <Cell key={skill.skillTheme}>{skill}</Cell>
+              ))}
+          </List>
+          )}
       </section>
-
-
     </Container>
   )
 }
