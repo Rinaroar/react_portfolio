@@ -27,7 +27,7 @@ const Profile = styled.img`
   }
 
   ${MAX.MEDIA_S} {
-    margin-bottom: 35px;
+    margin-bottom: 10px;
   }
 
   ${MAX.MEDIA_XS} {

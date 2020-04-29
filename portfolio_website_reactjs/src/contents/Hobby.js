@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import yoga from '../img/exercise.png';
 import { MAX } from "../constants";
 
-
 const Container = styled.div`
   padding: 100px ;
   background-color: #eee;
@@ -18,19 +17,33 @@ const Container = styled.div`
     padding: 0px 50px 90px 50px;
   }
 
-  ${MAX.MEDIA_S}{
-    margin-bottom: 60px;
+  ${MAX.MEDIA_XS}{
+    padding: 24% 10px 20px 18px;
   }
 `
 const Title = styled.h1`
   margin:10px 10px 30px 0px !important;
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.5rem;
+  }
 `
 
 const ItemYoga = styled.img`
   margin-bottom: 45px;
   width: 400px;
-`
 
+  ${MAX.MEDIA_XS}{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+`
+const Text = styled.p`
+  ${MAX.MEDIA_XS}{
+  width: 80%;
+  text-align: center;
+  }
+`
 const InstaLink = styled.a`
   text-decoration: none;
   font-weight: 600;
@@ -46,9 +59,9 @@ const Contact = () => {
       <Container>
         <Title>What do I do after work ?</Title>
         <ItemYoga src={yoga} alt="Yoga pose"></ItemYoga>
-        <p>Follow me on my dedicated
+        <Text>Follow me on my dedicated
           <InstaLink href="https://www.instagram.com/rinadoyoga/?hl=fr" target="_blank" rel="noopener noreferrer" class="instagram"> Instagram Account!</InstaLink>
-        </p>
+        </Text>
       </Container >
     )
 }
