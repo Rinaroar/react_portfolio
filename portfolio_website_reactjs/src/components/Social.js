@@ -5,7 +5,7 @@ const SocialContainer = styled.div`
   position: absolute;
   margin-top: 20px;
   display: flex;
-  bottom: 60px;
+  bottom: 20px;
 `
 
 const Network = styled.a`
