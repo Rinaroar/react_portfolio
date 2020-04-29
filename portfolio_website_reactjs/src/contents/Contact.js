@@ -17,10 +17,18 @@ const Container = styled.div`
   ${MAX.MEDIA_M}{
     padding: 0px 50px 90px 50px;
   }
+
+  ${MAX.MEDIA_XS}{
+    padding: 24% 10px 20px 18px;
+  }
 `
 
 const Title = styled.h1`
   margin:10px 10px 30px 0px !important;
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.5rem;
+  }
 `
 
 const Mail = styled.a`
@@ -40,6 +48,10 @@ const Gif = styled.img`
 
   ${MAX.MEDIA_M}{
     margin-bottom: 130px;
+  }
+
+  ${MAX.MEDIA_XS} {
+    max-width: 90%;
   }
 `
 
