@@ -11,10 +11,26 @@ const Container = styled.div`
   ${MAX.MEDIA_M}{
     padding: 30% 50px 30px 50px;
   }
+
+  ${MAX.MEDIA_XS}{
+    padding: 24% 10px 20px 18px;
+  }
 `
 
 const Title = styled.h1`
   margin:10px 10px 30px 0px !important;
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.5rem;
+  }
+`
+const Section = styled.section`
+  display: inline-flex;
+  margin-top: 15px;
+
+  ${MAX.MEDIA_XS} {
+    display: block;
+  }
 `
 
 const List = styled.ul`
@@ -23,15 +39,30 @@ const List = styled.ul`
   ${MAX.MEDIA_M}{
     margin: 0 60px 0 0;
   }
+
+  ${MAX.MEDIA_XS}{
+    margin-bottom: 15px;
+  }
+
 `
 
 const SkillTitle = styled.h2`
   color: rgb(189, 1, 129);
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.4rem;
+  }
 `
 const Cell = styled.li`
   list-style-type:none;
   margin: 10px 10px 10px 0;
   font-size: 1.2rem;
+
+  ${MAX.MEDIA_XS} {
+    margin: 0;
+    line-height: 2rem;
+  }
+
 `
 
 function SkillsView() {
@@ -54,7 +85,7 @@ function SkillsView() {
   return (
     <Container>
       <Title>I could help you with...</Title>
-      <section>
+      <Section>
         {items.map(value =>
           <List>
             <SkillTitle>{value.title}</SkillTitle>
@@ -64,7 +95,7 @@ function SkillsView() {
               ))}
           </List>
           )}
-      </section>
+      </Section>
     </Container>
   )
 }

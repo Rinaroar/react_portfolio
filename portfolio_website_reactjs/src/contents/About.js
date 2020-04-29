@@ -11,14 +11,26 @@ const Container = styled.div`
   ${MAX.MEDIA_M}{
     padding: 30% 50px 30px 50px;
   }
+
+  ${MAX.MEDIA_XS}{
+    padding: 24% 10px 20px 18px;
+  }
 `
 
 const Title = styled.h1`
   margin:10px 10px 30px 0px !important;
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.5rem;
+  }
 `
 
 const AboutMe = styled.h2`
   color: rgb(189, 1, 129);
+
+  ${MAX.MEDIA_XS} {
+    font-size: 1.2rem;
+  }
 `
 
 const About = () => {

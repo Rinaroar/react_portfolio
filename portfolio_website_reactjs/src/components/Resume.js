@@ -18,6 +18,12 @@ const Mini = styled.img`
     left: 75%;
     bottom: 7%;
   }
+
+  ${MAX.MEDIA_XS} {
+    width: 40%;
+    left: 0;
+    position: relative;
+  }
 `
 
 
