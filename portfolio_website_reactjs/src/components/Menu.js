@@ -1,27 +1,28 @@
-import React  from 'react';
+import React from 'react';
+import { bool } from 'prop-types';
+import { Link } from "react-router-dom";
+
 import styled from 'styled-components';
 import { MAX } from "../constants";
 
-import { Link } from "react-router-dom";
-
-const Navigation = styled.nav`
-  padding:60px 30px 0px 30px ;
-  flex: 1.5;
-  background-image: linear-gradient(to top, #680270, #720171, #7c0071, #850071, #8e0071, #950072, #9c0173, #a30274, #a90277, #b0027b, #b6017e, #bd0181);
-  display: block;
-
-  ${MAX.MEDIA_M} {
-    padding: 30% 2% 25% 2%;
-  }
-
-  ${MAX.MEDIA_S} {
-    padding: 25% 2% 25% 2%;
-  }
+export const StyledMenu = styled.nav`
+  display: none;
+  background: red;
+  height: 100vh;
+  text-align: left;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.3s ease-in-out;
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
 
   ${MAX.MEDIA_XS} {
-   display: none;
+    width: 100%;
+    display: flex;
   }
-`
+`;
+
 const List = styled.ul`
   font-size: 1.6rem;
   list-style-type: none;
@@ -40,10 +41,10 @@ const Cell = styled.li`
   }
 `
 
-const Navbar = () => {
+const Menu = ({ open }) => {
   return (
-      <Navigation>
-        <List>
+    <StyledMenu open={open}>
+       <List>
           <Cell><Link to="/react_portfolio">Home</Link></Cell>
           <Cell><Link to="/about">About</Link></Cell>
           <Cell><Link to="/experiences">Experiences</Link></Cell>
@@ -52,8 +53,12 @@ const Navbar = () => {
           <Cell><Link to="/hobby">Hobby</Link></Cell>
           <Cell><Link to="/contact">Contact</Link></Cell>
         </List>
-      </Navigation>
-    )
+    </StyledMenu>
+  )
+}
+
+  Menu.propTypes = {
+    open: bool.isRequired,
   }
 
-export default Navbar;
+export default Menu;

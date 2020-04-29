@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
-:root {
-  --sidebar-flex:1.5;
-  --condiv-flex:6;
-  --fontsize-p:1.2rem;
-  --fontsize-nav:1.6rem;
-  --typing-font:3rem;
-}
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+
 * {
   margin:0;
   padding: 0;
@@ -24,7 +18,7 @@ section {
 p {
   font-size: var(--fontsize-p);
   font-weight: 400;
-}
+} */
 
 .App {
   display: flex;
@@ -39,7 +33,7 @@ p {
 }
 
 .typingEffect {
-  font-size: var(--typing-font);
+  font-size: 3rem;
   margin: 0 0 160px 0;
 }
 
