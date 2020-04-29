@@ -8,6 +8,14 @@ const Navigation = styled.nav`
   padding:60px 30px 0px 30px ;
   flex:var(--sidebar-flex);
   background-image: linear-gradient(to top, #680270, #720171, #7c0071, #850071, #8e0071, #950072, #9c0173, #a30274, #a90277, #b0027b, #b6017e, #bd0181);
+
+  ${MAX.MEDIA_M} {
+    padding: 30% 2% 25% 2%;
+  }
+
+  ${MAX.MEDIA_S} {
+    padding: 25% 2% 25% 2%;;
+  }
 `
 const List = styled.ul`
   font-size: 1.6rem;
@@ -16,6 +24,15 @@ const List = styled.ul`
 
 const Cell = styled.li`
   margin:40px;
+
+  a {
+    text-decoration: none;
+    color: white;
+
+    &:hover {
+      font-weight: 700;
+    }
+  }
 `
 
 const Navbar = () => {
