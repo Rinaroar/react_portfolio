@@ -39,7 +39,7 @@ const About = () => {
       <Title>About Me</Title>
       <p>Hey there,</p>
       <br></br>
-      <AboutMe>I'm Marina Luxin <br></br>Apprentice Fullstack Web <u>Developer</u></AboutMe>
+      <AboutMe>I'm Marina Luxin <br></br>Happy apprentice Fullstack Web <u>Developer</u></AboutMe>
       <br></br>
         <p>I started my journey in Digital World from an young age designing, editing and creating stuff on Web.
           I did my studies in Paris beginning with a HND in communication and a Bachelor Degree in Digital Marketing.
